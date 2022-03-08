@@ -1,0 +1,158 @@
+*{
+  padding:0px;
+  margin:0px;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	font-family:arial;
+  font-size: 1em;
+	overflow:hidden;
+	-webkit-app-region: no-drag;
+  background-color:rgb(200,200,200);
+}
+div{
+	-webkit-user-select: none;
+}
+p{
+ 
+  padding:10px;
+}
+.sel{
+	cursor:text;
+	-webkit-user-select: text;  
+}
+.side{
+  position:absolute;
+  width:calc(50% - 180px);
+  height:100vh;
+  background-color:rgba(200,200,200,0.5);
+
+}
+#center{
+  position:absolute;
+  left:calc(50% - 180px);
+  top:0px;
+  width:360px;
+  height:200px;
+  background-image: url("cylinders2.png");
+  overflow:hidden;
+ 
+}
+#centerBottom{
+  position:absolute;
+  left:calc(50% - 180px);
+  top:300px;
+  width:360px;
+  background-color:rgb(200,200,200);
+  display:block;
+}
+ul{
+  position:absolute;
+  width: 120px;
+}
+#one{
+  left:120px;
+}
+#two{
+  left:240px;
+}
+
+
+ 
+ 
+ 
+ 
+ 
+ #trail{
+  position:absolute;
+  width:120px;
+}
+.holder{
+  position:relative;
+  width: 120px;
+  float:left;
+}
+#branch{
+  position:absolute;
+  left:120px;
+}
+#aspect{
+  position:absolute;
+  left:240px;
+}
+.line{
+  position:absolute;
+  left:0px;
+  top:100px;
+  width:360px;
+  height:1px;
+  background-color:rgb(150,150,150);
+}
+#tooltip{
+  position:absolute;
+  left:120px;
+  top:0px;
+  width:120px;
+  background-color:rgb(255, 240, 143);
+  text-align:center;
+}
+.slider{
+  position:absolute;
+  width :120px;
+  
+}
+.column{
+  float: left;
+  width: 120px;
+}
+.column{
+  height: 200px;
+}
+li{
+  position: relative;
+  width: 117px;
+  list-style-type: none;
+	user-select: none; 
+	float:left;
+  padding:0 0 0 3px ;
+	cursor:pointer;Label;
+  
+	white-space:nowrap;
+	text-overflow: ellipsis;
+}
+.faded{
+  color:rgb(150,150,150);
+}
+.tag{
+  color:rgb(0,0,200);
+  background-color:rgba(182,245,245,0.5);
+}
+.link{
+  color:rgb(160,82,45);
+  background-color:rgba(245,245,182,0.5);
+}
+.manager{
+  color:rgb(0,118,119);
+  background-color:rgba(182,220,182,0.5);
+}
+.tools{
+  color:rgb(250,29,189);
+  background-color:rgba(246,198,239,0.5);
+}
+
+.name{
+  color:rgb(0,0,0);
+}
+.white{
+  color:rgb(100, 100, 100);
+  background-color:transparent;
+}
+span{
+  width:50%;
+}
+#right{
+  left:calc(50% + 180px);
+  top:0px;
+}
