@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Workshop</title>
+    <!--
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+ -->
+ 
+    <script src = "jquery/jquery-3.1.1.js"></script>
+    <script src = "jquery/jquery-ui12.js"></script>
+    
+    <link rel= "stylesheet" href = "style.css" />
+  </head>
+  <body>
+    <div id = "left" class = "side">
+      <div id = "header">
+        <p>
+          TBA lert console
+        </p>
+        <p id = "reports">
+          <!--<span style = "color:red">interaction</span>-->
+          <span>nset</span>
+          <span>rset</span>
+          <span>cfig</span>
+          <span>bfig</span>
+        </p>
+        <input id = "inp">
+        <p id = "box">
+          <span>Nodify</span>
+          <span>Highlight</span>
+          <span>Clear box</span>
+          <span>Clear all</span>
+        </p>
+      </div>
+      <pre id = "hold" contenteditable = true spellcheck = false>
+code call: [opener.]lert(data,[stringify],[single]);
+      </pre>
+    </div>
+    <script src = "scriptsTBA/saver.js"></script>
+    <script src = "lert.js"></script>
+    <script src = "nset.js"></script>
+    <script src = "rset.js"></script>
+    
+    <div id = "center">
+      <ul id = "zero"></ul>
+      <ul id = "one"></ul>
+      <ul id = "two"></ul>
+    </div>
+    <script src = "scriptsTBA/dragOdds.js"></script>
+    <script src = "scriptsTBA/toolsOdds.js"></script>
+    <script src = "scriptsTBA/run.js"></script>
+    <script src = "scriptsTBA/director.js"></script>
+    <script src = "scriptsTBA/vDrag.js"></script>
+   
+    
+    <script>
+      var nset,cfig,bfig,d;
+      $(document).ready(function(){
+        cfig = nset.cfig;
+        bfig = nset.bfig;
+        d = bfig.dims;
+        setup();
+      });
+    </script>
+    
+    <div id = "right" class = "side"></div>
+  </body>
+</html>
