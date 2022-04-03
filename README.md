@@ -16,12 +16,14 @@ Structured content.
 
 ![Thumbs](https://user-images.githubusercontent.com/19796713/161431019-92b6e96a-7e3d-4acc-80b5-480b831abdc9.png)
 
-The basic interaction is the conversion of JSON into code objects; selection of names directs a universal assembler to handle large volumes of data  to assemble workpieces. Such automation allows this to happen on a small screen. Output is automatically sent to cloud storage. Further interactions include:
-Selection from lexicons to minimise input to avoid duplication and improve accuracy, connectivity and productivity
-Search  - new deductive processes that generate multimedia to visualise and test different combinations of entities, aspects and devices
-Advertising - mutually beneficial collaboration between buyers and sellers
+The basic interaction is the conversion of JSON into code objects; selection of names directs a universal assembler to handle large volumes of data  to assemble workpieces. Such automation allows this to happen on a small screen. Output is automatically sent to cloud storage. 
 
-###Sponsor
+Further interactions include:
+- Selection from lexicons to minimise input to avoid duplication and improve accuracy, connectivity and productivity
+- Search  - new deductive processes that generate multimedia to visualise and test different combinations of entities, aspects and devices
+- Advertising - mutually beneficial collaboration between buyers and sellers
+
+### Sponsor
 
 The World Wide Web grew out of a need for better interactions in scientific research, in particular, its papers. For the general public, interactions relate back to the real world, in particular, the built environment. Names used to identify its entities, from cities to screws if you like, provide both the means to identify and navigate its complexity, and the means to automate aspects that make them part of work processes, and by default, part of infrastructure. 
 
