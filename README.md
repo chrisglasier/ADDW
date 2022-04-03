@@ -1,4 +1,3 @@
-# ADDW
 ## Automation in day-to-day work - What is needed
 
 5th February 2022
